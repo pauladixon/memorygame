@@ -1,0 +1,151 @@
+style.css
+
+ 
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+
+/* =============================
+header
+================================ */
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+
+h1{
+	font-family: 'Changa', san-serif;
+	font-weight: 700;
+	text-transform: lowercase;
+	font-style: italic;
+	text-align: center;
+	font-size: 40px;
+	margin: 0;
+}
+
+
+/* =============================
+nav
+================================ */
+
+h2 {
+	font-family: 'Oswald', san-serif;
+	font-weight: 400;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 16px;
+	letter-spacing: 5px;
+	display: inline;
+}
+
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+a{
+	margin: 0px 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover{
+	background-color: #aaaaaa;
+}
+
+
+/* =============================
+description
+================================ */
+
+main{
+	font-family: 'Changa', san-serif;
+	font-weight: 300;
+	text-transform: lowercase;
+	font-style: italic;
+	text-align: center;
+	color: #5e5e5e;
+	font-size: 14px;
+	width: 850px;
+	margin: 35px auto;
+}
+
+h3 {
+	font-family: 'Changa', san-serif;
+	font-weight: 300;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: inline;
+}
+
+.description{
+	width: 500px;
+	padding: 30px 30px;
+	border: 2px dashed gray;
+	margin: auto;
+}
+
+
+/* =============================
+game
+================================ */
+
+img{
+	margin: 40px 8px;
+}
+
+
+/* =============================
+footer
+================================ */
+
+footer {
+	font-family: 'Oswald', san-serif;
+	font-weight: 300;
+	text-transform: lowercase;
+	font-style: italic;
+	text-align: center;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 10px 20px;
+	margin: auto;
+	letter-spacing: .08em;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.copyright{
+	float: left;
+}
+
+.message{
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name{
+	color: #F15B31;
+	font-weight: 700;
+}
+
+
+
